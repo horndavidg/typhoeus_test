@@ -1,0 +1,10 @@
+<h1>Songs Collections</h1>
+
+<% @results.each do |result|%>
+
+<%= link_to "#{result["artistName"]}", "#{result["collectionViewUrl"]}"%>
+<br>
+<% end %>
+
+
+
